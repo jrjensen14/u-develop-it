@@ -1,5 +1,5 @@
-const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
+const express = require('express');
 const inputCheck = require('./utils/inputCheck');
 
 const PORT = process.env.PORT || 3001;
